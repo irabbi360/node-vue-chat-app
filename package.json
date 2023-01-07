@@ -1,0 +1,27 @@
+{
+  "name": "node-vue-chat-app",
+  "version": "1.0.0",
+  "description": "node vue socket.io chat app",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Fazle Rabbi",
+  "keywords": [
+    "node vuejs chat",
+    "nodejs socket io",
+    "node vuejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/irabbi360/node-chat-app.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
